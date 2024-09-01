@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 body {
-    background-color: #1b1b32;
+    background-color: #293445;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     padding: 20px;
   }
@@ -13,6 +19,7 @@ body {
   
   #flag-container {
     margin-bottom: 20px;
+    
   }
   
   #input-pais {
@@ -39,8 +46,8 @@ body {
   }
   
   .indicador {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     background-color: grey;
     margin-top: 10px;
   }
