@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flagword</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FLAGWORD</h1>
+    <div id="flag-container">
+      <!-- Aqui vai aparecer a bandeira -->
+      <img id="flag" src="C:\Users\arnal\OneDrive\Desktop\projetos\clone\FlagWord\bandeiras\brasil.png" alt="Bandeira" />
+    </div>
+    <input type="text" id="input-pais" placeholder="Digite o país" />
+    <button id="btn-adivinhar">Adivinhar</button>
+
+    <div class="dicas">
+      <div class="dica">
+        <p>Bandeira:</p>
+        <div id="dica-bandeira" class="indicador"></div>
+      </div>
+      <div class="dica">
+        <p>Continente:</p>
+        <div id="dica-continente" class="indicador"></div>
+      </div>
+      <div class="dica">
+        <p>1ª Letra:</p>
+        <div id="dica-letra" class="indicador"></div>
+      </div>
+      <div class="dica">
+        <p>Idioma principal:</p>
+        <div id="dica-idioma" class="indicador"></div>
+      </div>
+      <div class="dica">
+        <p>Hemisfério:</p>
+        <div id="dica-hemisferio" class="indicador"></div>
+      </div>
+    </div>
+
+    <div id="indicadores-de-cor">
+      <p>Correto</p> <span class="cor correto"></span>
+      <p>Parcial</p> <span class="cor parcial"></span>
+      <p>Incorreto</p> <span class="cor incorreto"></span>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
