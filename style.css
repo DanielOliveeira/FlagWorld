@@ -14,12 +14,12 @@ body {
   
   .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: auto;
   }
   
-  #flag-container {
-    margin-bottom: 20px;
-    
+  #flag{
+    margin-bottom: 0px;
+    width: 200px;
   }
   
   #input-pais {
@@ -36,14 +36,29 @@ body {
   }
   
   .dicas {
+    text-align: center;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
   }
+  #dica-idioma{
+    margin-left: 60px;
+    width: 110px;
+    vertical-align: middle;
+    display: table-cell;
+    
+  }
+  #indicador{
+    margin-top: 200px;
+  }
+.dicas p{
+  
+}
   
   .dica {
     text-align: center;
   }
+  
   
   .indicador {
     width: 80px;
