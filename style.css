@@ -1,18 +1,25 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 body {
-    background-color: #1b1b32;
+    background-color: #293445;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     padding: 20px;
   }
   
   .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: auto;
   }
   
-  #flag-container {
-    margin-bottom: 20px;
+  #flag{
+    margin-bottom: 0px;
+    width: 200px;
   }
   
   #input-pais {
@@ -27,25 +34,50 @@ body {
     border: none;
     cursor: pointer;
   }
+  #dica-bandeira-img{
+    width: 80px;
+    height: 80px;
+  }
   
   .dicas {
+    text-align: center;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    
   }
   
   .dica {
     text-align: center;
   }
+<<<<<<< HEAD
   #dica-bandeira-img{
     width: 80px;
     height: 80px;
   }
+=======
+  .dica1 p{
+    margin-top: 10px;
+  }
+  #dica-idioma{
+   margin-top: 10px;
+   
+    
+  }
+  
+>>>>>>> 3ac8a73dc7299d6b7f993f6097d98cf4e5a1f0b1
   .indicador {
+    font-size: 13px;
+    margin: auto;
     width: 80px;
     height: 80px;
-    background-color: grey;
     margin-top: 10px;
+    background-color: grey;
+    padding: 10px;
+    
+  }
+  #dica-letra, #dica-hemisferio{
+    padding-top: 23px;
   }
   
   #indicadores-de-cor {
