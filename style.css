@@ -34,37 +34,43 @@ body {
     border: none;
     cursor: pointer;
   }
+  #dica-bandeira-img{
+    width: 80px;
+    height: 80px;
+  }
   
   .dicas {
     text-align: center;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-  }
-  #dica-idioma{
-    margin-left: 60px;
-    width: 110px;
-    vertical-align: middle;
-    display: table-cell;
     
   }
-  #indicador{
-    margin-top: 200px;
-  }
-.dicas p{
-  
-}
   
   .dica {
     text-align: center;
   }
-  
+  .dica1 p{
+    margin-top: 10px;
+  }
+  #dica-idioma{
+   margin-top: 10px;
+   
+    
+  }
   
   .indicador {
+    font-size: 13px;
+    margin: auto;
     width: 80px;
     height: 80px;
-    background-color: grey;
     margin-top: 10px;
+    background-color: grey;
+    padding: 10px;
+    
+  }
+  #dica-letra, #dica-hemisferio{
+    padding-top: 23px;
   }
   
   #indicadores-de-cor {
