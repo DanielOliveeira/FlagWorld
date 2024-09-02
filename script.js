@@ -112,7 +112,7 @@ window.onload = function() {
     document.getElementById("dica-letra").innerHTML = "";
     document.getElementById("dica-idioma").innerHTML = "";
     document.getElementById("dica-hemisferio").innerHTML = "";
-    document.getElementById("dica-bandeira-img").src = "";
+    document.getElementById("dica-bandeira-img").src = "imgs/s.png";
   
     // Evento de click no botão de adivinhar
     document.getElementById("btn-adivinhar").addEventListener("click", function() {
@@ -132,7 +132,9 @@ window.onload = function() {
         if (paisDigitado === paisCorreto) {
           alert("Parabéns! Você acertou o país.");
         } else {
+
           // Mostrar as dicas
+
           // Continente
     if (paisDigitado.continente === paisCorreto.continente) {
         document.getElementById("dica-continente").style.backgroundColor = "green";

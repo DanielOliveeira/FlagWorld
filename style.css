@@ -11,7 +11,7 @@ body {
     text-align: center;
     padding: 20px;
   }
-  
+
   .container {
     max-width: 600px;
     margin: auto;
@@ -80,7 +80,10 @@ body {
     vertical-align: middle;
     padding: 3px;
   }
-  
+  #flag {
+    width: 200px;
+    height: 200px;
+  }
   .indicador {
     font-size: 13px;
     margin: auto;
@@ -89,15 +92,11 @@ body {
     margin-top: 10px;
     background-color: #293445;
     padding: 10px;
-    
-  }
-  #dica-bandeira{
-    color: #293445;
   }
   #dica-letra{
     padding-top: 23px;
   }
-   #dica-hemisferio{
+  #dica-hemisferio{
     padding-top: 17px;
   }
   
@@ -119,9 +118,7 @@ body {
     padding: 0%;
     margin-left: 2px;
     margin-top: 10.1px;
-    
   }
-  
   .correto {
     background-color: green;
   }
