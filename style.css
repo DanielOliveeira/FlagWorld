@@ -37,7 +37,10 @@ body {
   .dica {
     text-align: center;
   }
-  
+  #dica-bandeira-img{
+    width: 80px;
+    height: 80px;
+  }
   .indicador {
     width: 80px;
     height: 80px;
