@@ -50,24 +50,15 @@ body {
   .dica {
     text-align: center;
   }
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-  #dica-bandeira-img{
-    width: 80px;
-    height: 80px;
-  }
-=======
   .dica1 p{
     margin-top: 10px;
   }
->>>>>>> 370210caa66b0fc90c77e8472a0fd09fba892ebc
   #dica-idioma{
    margin-top: 10px;
+   
+    
   }
   
->>>>>>> 3ac8a73dc7299d6b7f993f6097d98cf4e5a1f0b1
   .indicador {
     font-size: 13px;
     margin: auto;
@@ -106,5 +97,4 @@ body {
   .incorreto {
     background-color: red;
   }
-  
   
