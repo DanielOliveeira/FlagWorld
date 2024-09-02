@@ -34,29 +34,51 @@ body {
     border: none;
     cursor: pointer;
   }
-  #dica-bandeira-img{
-    width: 80px;
-    height: 80px;
-  }
   
   .dicas {
+    margin: auto;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
     
   }
   
   .dica {
     text-align: center;
+    border-radius: px;
   }
-  .dica1 p{
+  .dica p{
     margin-top: 10px;
+    vertical-align: middle;
+    display: table-cell;
   }
   #dica-idioma{
    margin-top: 10px;
+   vertical-align: middle;
    
     
+  }
+  #dica-continente{
+    border-radius: 7.2px;
+    vertical-align: middle;
+    padding: -1px;
+  }
+  #dica-letra{
+    border-radius: 7.2px;
+    vertical-align: middle;
+    padding: -3px;
+  }
+  #dica-idioma{
+    border-radius: 7.2px;
+    vertical-align: middle;
+    padding-top: 16px;
+  }
+  #dica-hemisferio{
+    border-radius: 7.2px;
+    vertical-align: middle;
+    padding: 3px;
   }
   
   .indicador {
@@ -65,12 +87,18 @@ body {
     width: 80px;
     height: 80px;
     margin-top: 10px;
-    background-color: grey;
+    background-color: #293445;
     padding: 10px;
     
   }
-  #dica-letra, #dica-hemisferio{
+  #dica-bandeira{
+    color: #293445;
+  }
+  #dica-letra{
     padding-top: 23px;
+  }
+   #dica-hemisferio{
+    padding-top: 17px;
   }
   
   #indicadores-de-cor {
@@ -84,6 +112,14 @@ body {
     width: 30px;
     height: 30px;
     display: inline-block;
+  }
+  #dica-bandeira-img{
+    width: 80px;
+    height: 80px;
+    padding: 0%;
+    margin-left: 2px;
+    margin-top: 10.1px;
+    
   }
   
   .correto {
