@@ -112,7 +112,7 @@ window.onload = function() {
     document.getElementById("dica-letra").innerHTML = "";
     document.getElementById("dica-idioma").innerHTML = "";
     document.getElementById("dica-hemisferio").innerHTML = "";
-    document.getElementById("dica-bandeira-img").src = "imgs/s.png";
+    document.getElementById("dica-bandeira-img").src = " ";
   
     // Evento de click no botão de adivinhar
     document.getElementById("btn-adivinhar").addEventListener("click", function() {
