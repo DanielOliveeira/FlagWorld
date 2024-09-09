@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlagWorld</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="imgs/world.png">
+    
 </head>
 
 <body>
@@ -14,14 +16,33 @@
     </header>
     
     <main class="container">
-        <img id="flag" src=" " alt="Bandeira" />
-        <div class="input-container">
-            <input type="text" placeholder="Digite um país" required>
-            <button>Adivinhar</button>
-        </div>
-        <div>
+        <section id="flagContainer">
+            <img id="flag" src="bandeiras/argentina.png" alt="Bandeira"/>
+            <div class="input-container">
 
-        </div>
+                <div class="inputBox">
+                    <input id="input-pais" type="text"  required=""><span>Digite um País</span>
+                </div>
+                <div>
+                    <button onclick="adivinhar()"><span class="text-button">Adivinhar</span></button>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section>
+            <div class="legendas">
+                <p>Bandeira</p>
+                <p>Continente</p>
+                <p>1ª Letra</p>
+                <p>Idioma principal</p>
+                <p>Hemisfério</p>
+            </div>
+            <div id="dicasPais"></div>
+        </section>
     </main>
+
+    <script src="script/dados.js"></script>
+    <script src="script/app.js"></script>
 </body>
 </html>
