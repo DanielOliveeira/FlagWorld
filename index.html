@@ -5,43 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlagWorld</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="imgs/world.png">
-    
+    <link rel="icon" type="image/png" href="imgs/world.png">  
 </head>
 
 <body>
-    <header>
-        <br><br>
-        <h1>FLAGWORLD</h1>
-    </header>
     
-    <main class="container">
-        <section id="flagContainer">
-            <img id="flag" src="bandeiras/argentina.png" alt="Bandeira"/>
-            <div class="input-container">
-
-                <div class="inputBox">
-                    <input id="input-pais" type="text"  required=""><span>Digite um País</span>
-                </div>
-                <div>
-                    <button onclick="adivinhar()"><span class="text-button">Adivinhar</span></button>
-                </div>
-                
+    <main id="container">       
+        <section class="titulo"> 
+            <div class="titulo-interface"></div>
+                    <h1>
+                        <span class="flagworld_cor1">FLAG</span>
+                        <span class="flagworld_cor2">WORLD</span>
+                    </h1>
+                    <a href="home.html">
+                    <img class="logo_planeta" src="imgs/planeta.gif" alt="">
+                    </a>
             </div>
-        </section>
-        
-        <section>
-            <div class="legendas">
-                <p>Bandeira</p>
-                <p>Continente</p>
-                <p>1ª Letra</p>
-                <p>Idioma principal</p>
-                <p>Hemisfério</p>
-            </div>
+        </section><!--titulo-->
+        <section class="search">
+                        <img class="flag" src="bandeiras/argentina.png" alt="Bandeira"/> 
+                        <div class="input-container">
+                            <div class="inputBox">
+                                <input type="text" name="text" id="input-pais" placeholder="Digite um País"/>
+                            </div>
+                            <div>
+                                <button onclick="adivinhar()"><span class="text-button">Adivinhar</span></button>
+                            </div>               
+                        </div>           
+        </section><!--search-->     
+        <section class="interface">
+                    <div class="square bandeira">Bandeira</div>
+                    <div class="square bandeira">Continente</div>
+                    <div class="square bandeira">1ºLetra</div>
+                    <div class="square bandeira">Idioma Principal</div>
+                    <div class="square bandeira">Hemisfério</div>
+        </section><!--interface-->
+        <Section class="JS">
             <div id="dicasPais"></div>
-        </section>
+        </Section><!--JS-->
     </main>
-
     <script src="script/dados.js"></script>
     <script src="script/app.js"></script>
 </body>
